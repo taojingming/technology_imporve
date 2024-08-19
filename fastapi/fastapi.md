@@ -52,6 +52,15 @@ response_model_exclude_unset=True 没有设置的参数不要
 返回指定的状态码
 自定义异常状态码
 
+# 11、依赖注入
+函数作为依赖项
+类作为依赖项
+子依赖项
+全局依赖dependencies
+
+# 12、身份验证
+token
+
 
 
 

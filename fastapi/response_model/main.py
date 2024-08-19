@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 from enum import Enum
 import uvicorn
 from fastapi import FastAPI
-
+import sys
 
 
 users = {
@@ -32,4 +32,5 @@ async def get_users():
     return users.values()
     
 if __name__ == '__main__':
+    print(sys.executable)
     uvicorn.run("main:app",reload=True)
