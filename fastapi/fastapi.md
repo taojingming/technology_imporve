@@ -61,7 +61,12 @@ response_model_exclude_unset=True 没有设置的参数不要
 # 12、身份验证
 token
 
+# 13-14 数据库链接 和修改删除
+SQLAlchemy==2.0.23  
+mysqlclient==2.1.1
 
+# 15 后台任务
 
-
-
+# 16 元数据和URL
+标题版本 描述信息
+增加标记tag
